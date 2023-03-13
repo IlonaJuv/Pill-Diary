@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/My_Medicine"
+        android:id="@+id/my_Medicine"
+        android:icon="@drawable/medicine"/>
+
+    <item
+        android:title="@string/Person"
+        android:id="@+id/person"
+        android:icon="@drawable/person"/>
+
+    <item
+        android:title="@string/Calendar"
+        android:id="@+id/calendar"
+        android:icon="@drawable/calendar"/>
+</menu>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/dialog_background_custom">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_new_medicine"
+        android:textColor="#0097A7"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/medGetNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Med_Name_Questions"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextGetMedName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Name_of_Medicine"
+            android:textColorHint="#78909C"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:autofillHints="name" />
+
+        <TextView
+            android:id="@+id/getMedAmountTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Med_Amount_Question"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/editTextMedNumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Amount_of_Medicine"
+            android:inputType="number"
+            android:textColorHint="#78909C"
+            android:textSize="20sp"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/getMedTimeTextView"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Med_Time_question"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextMedTime"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/After"
+            android:inputType="text"
+            android:textColorHint="#78909C"
+            android:textSize="20sp"
+            android:autofillHints="After eating" />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/addMedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/pill_diary_color"
+        android:text="@string/Add"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+         android:layout_marginTop="30dp"/>
+</LinearLayout>

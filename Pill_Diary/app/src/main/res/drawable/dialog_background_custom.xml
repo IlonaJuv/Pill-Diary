@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadius="10dp">
+    <stroke
+        android:color="@color/pill_diary_color"
+        android:width="5dp"/>
+    <corners
+        android:radius="10dp"/>
+
+</shape>

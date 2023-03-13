@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "96186698709",
+    "firebase_url": "https://pill-diary-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pill-diary",
+    "storage_bucket": "pill-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96186698709:android:692a98145c9063071a0b5c",
+        "android_client_info": {
+          "package_name": "fi.antonina.pilldiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96186698709-s2elr671uk73m3l05i8op040ucac5g0e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fi.antonina.pilldiary",
+            "certificate_hash": "c5d3ebdc090aa43f06a3c5b6b3cf62d3fdffef0c"
+          }
+        },
+        {
+          "client_id": "96186698709-jvaj3mgb1qvb11s2mahigll9ci5k70ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDei6wrcY3UtezmtSehCqZqVIG8yAFQmPI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96186698709-jvaj3mgb1qvb11s2mahigll9ci5k70ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

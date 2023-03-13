@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Pill Diary</string>
+    <string name="underline_text">
+        <u>Create a new account!</u>.
+    </string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="go_in">GO IN</string>
+    <string name="Dont_have_account">Don\'t have an account?</string>
+    <string name="Today">Today</string>
+    <string name="My_Medicine">My Medicine</string>
+    <string name="Person">Person</string>
+    <string name="Calendar">Calendar</string>
+    <string name="Current">CURRENT MEDS</string>
+    <string name="Add_new_medicine">Add a new medicine</string>
+    <string name="Med_Name_Questions">What is the name of the medicine?</string>
+    <string name="Med_Amount_Question">How many capsules should take per day?</string>
+    <string name="Med_Time_question">When should take medicine?</string>
+    <string name="Morning">Morning</string>
+    <string name="Evening">Evening</string>
+    <string name="After">After eating</string>
+    <string name="Before">Before eating</string>
+    <string name="Name_of_Medicine">Name of the medicine</string>
+    <string name="Amount_of_Medicine">Amount of medicine</string>
+    <string name="Add">ADD</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Update">UPDATE</string>
+    <string name="Feedback_hints">Feeling about medicine</string>
+    <string name="FeedbackQuestion">What do you feel?</string>
+    <string name="Edit_Medicine">Edit Current Medicine</string>
+    <string name="New_Remider">New Remider</string>
+    <string name="Enter_your_messeage">Enter your message</string>
+    <string name="set">SET</string>
+    <string name="cancel">CANCEL</string>
+    <string name="Personal_Information">Personal Information</string>
+    <string name="user_name">TEST</string>
+    <string name="years_old">year(s) old</string>
+    <string name="Click_on_text">Click on texts to edit </string>
+    <string name="Set_reminder">SET REMINDER</string>
+</resources>
